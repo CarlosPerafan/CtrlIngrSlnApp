@@ -1,0 +1,9 @@
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.deps.json
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.dll
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.pdb
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.csprojAssemblyReference.cache
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.AssemblyInfo.cs
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.dll
+C:\Users\caper\Documents\Proyectos\CtrlIngrsoSalon\CtrlIngrsoSalon.App\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.pdb
