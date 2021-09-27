@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {}
+    "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
+    "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
+        "projectUniqueName": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
         "projectName": "CtrlIngrsoSalon.App.Dominio",
-        "projectPath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\caper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\obj\\",
+        "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "S:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caper\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,33 +59,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {
+    "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
+        "projectUniqueName": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
         "projectName": "CtrlIngrsoSalon.App.Persistencia",
-        "projectPath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\caper\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Persistencia\\obj\\",
+        "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "S:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caper\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
-                "projectPath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj"
+              "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
+                "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj"
               }
             }
           }
@@ -129,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
