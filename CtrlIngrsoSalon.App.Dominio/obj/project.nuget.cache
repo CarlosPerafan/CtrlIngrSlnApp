@@ -1,19 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "St0YFvitABD66DhVpb4OhZmaUXLXTl0JWqekcYFUvCGqv8YfNLDWd9eoNOnVj7tZeCrrt0HS6Iun3KEioe+wCg==",
+  "dgSpecHash": "oEvekfNX2E+HpoAe/IVRMasiDQPlCPiZJ0XPxqDnev6RNnr1DfcAKLb9/zBuw0AamZN69IpEzz1A650x5gEGZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
+  "projectFilePath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\caper\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\caper\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\caper\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jorge\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\caper\\Documents\\Proyectos\\CtrlIngrsoSalon\\CtrlIngrsoSalon.App\\CtrlIngrsoSalon.App.Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

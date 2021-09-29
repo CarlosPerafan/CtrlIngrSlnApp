@@ -348,7 +348,7 @@ EditarEstudiante(12);
         private static void BorrarDocente(int idDocente)
         {
             Docente docentebuscado = _repositorioDocente.GetDocente(idDocente);
-            Boolean docenteborrar = _repositorioDocente.DeleteDocente(docentebuscado.id);
+            Boolean docenteborrar = _repositorioDocente.DeleteDocente(docentebuscado.id, docentebuscado.persona.id);
 
             Boolean personaborrar = _repositorioPersona.DeletePersona(idDocente);
             Console.WriteLine("Valor de la variable Booleana es: " + personaborrar);
@@ -365,7 +365,7 @@ EditarEstudiante(12);
         private static void BorrarEstudiante(int idEstudiante)
         {
             Estudiante estudiantebuscado = _repositorioEstudiante.GetEstudiante(idEstudiante);
-            Boolean estudianteborrar = _repositorioEstudiante.DeleteEstudiante(estudiantebuscado.id);
+            Boolean estudianteborrar = _repositorioEstudiante.DeleteEstudiante(estudiantebuscado.id, estudiantebuscado.persona.id);
 
             Boolean personaborrar = _repositorioPersona.DeletePersona(idEstudiante);
             Console.WriteLine("Valor de la variable Booleana es: " + personaborrar);
