@@ -1,7 +1,8 @@
 using System.Collections.Generic;
-using CtrlIngrsoUniversidad.App.Dominio;
+using CtrlIngrsoSalon.App.Dominio;
+using System;
 
-namespace CtrlIngrsoUniversidad.App.Persistencia
+namespace CtrlIngrsoSalon.App.Persistencia
 {
     public interface IRepositorioUniversidad
     {

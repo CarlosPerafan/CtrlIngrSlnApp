@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using CtrlIngrsoSalon.App.Dominio;
+using System;
 
 namespace CtrlIngrsoSalon.App.Persistencia
 {

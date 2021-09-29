@@ -16,7 +16,7 @@ namespace CtrlIngrsoSalon.App.Persistencia
         }
 
 
-        IEnumerable<Persona> IRepositorioPersona.GetAllPersona()
+        IEnumerable<Persona> IRepositorioPersona.GetAllPersonas()
         {
             return _appContext.Personas;
         }

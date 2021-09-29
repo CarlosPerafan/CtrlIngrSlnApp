@@ -15,7 +15,7 @@ namespace CtrlIngrsoSalon.App.Persistencia
              _appContext = appContext;
         }
 
-        IEnumerable<Estudiante> IRepositorioEstudiante.GetAllEstudiante()
+        IEnumerable<Estudiante> IRepositorioEstudiante.GetAllEstudiantes()
         {
             return _appContext.Estudiantes;
         }

@@ -16,7 +16,7 @@ namespace CtrlIngrsoSalon.App.Persistencia
         }
 
 
-        IEnumerable<Docente> IRepositorioDocente.GetAllDocente()
+        IEnumerable<Docente> IRepositorioDocente.GetAllDocentes()
         {
             return _appContext.Docentes;
         }

@@ -16,7 +16,7 @@ namespace CtrlIngrsoSalon.App.Persistencia
         }
 
 
-        IEnumerable<Estado> IRepositorioEstado.GetAllEstado()
+        IEnumerable<Estado> IRepositorioEstado.GetAllEstados()
         {
             return _appContext.Estados;
         }

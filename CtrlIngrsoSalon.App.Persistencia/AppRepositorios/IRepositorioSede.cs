@@ -1,7 +1,8 @@
 using System.Collections.Generic;
-using CtrlIngrsoSede.App.Dominio;
+using CtrlIngrsoSalon.App.Dominio;
+using System;
 
-namespace CtrlIngrsoSede.App.Persistencia
+namespace CtrlIngrsoSalon.App.Persistencia
 {
     public interface IRepositorioSede
     {
