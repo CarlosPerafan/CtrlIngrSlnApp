@@ -1,16 +1,18 @@
 using System.Collections.Generic;
-using System;
-using  CtrlIngrsoSalon.App.Dominio;
+using CtrlIngrsoSalon.App.Dominio;
+
 namespace CtrlIngrsoSalon.App.Persistencia
 {
-
-    public interface IRepositorioPersona 
+    public interface IRepositorioPersona
     {
-        IEnumerable<Persona> GetAllPersona();
-        Persona AddPersona (Persona persona);
-        Persona UpdatePersona (Persona persona);
-        Boolean DeletePersona (int idPersona);
-        Persona GetPersona(int idPersona);
+        IEnumerable<Persona> GetAllPersonas();
 
+        Persona AddPersona(Persona persona);
+
+        Persona UpdatePersona(Persona persona);
+
+        Boolean DeletePersona(int idPersona);
+
+        Persona GetPersona(int idPersona);
     }
 }
