@@ -9,9 +9,12 @@ namespace CtrlIngrsoSalon.App.Persistencia
         IEnumerable<Estudiante> GetAllEstudiante();
         Estudiante AddEstudiante (Estudiante estudiante);
         Estudiante UpdateEstudiante (Estudiante estudiante);
-        Boolean DeleteEstudiante (int idEstudiante);
+        Boolean DeleteEstudiante (int idEstudiante, int idPersona);
         Estudiante GetEstudiante(int idEstudiante);
 
+
+        //Boolean GetTodosEstudiante(); //ok
+       IEnumerable<Estudiante> GetTodosEstudiantes();
 
     }
 }

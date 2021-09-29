@@ -1,0 +1,63 @@
+﻿@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.EditarEstudianteModel
+@{
+
+<div class="container">
+    <div class="row">
+             <div class= "col-sm-8">
+               <h3>Editar Estudiante</h3>
+             </div>             
+    </div>
+</div>
+<div class="row">
+      <div class= "col-sm-10">
+        <form method = "post" >
+          <input asp-for="estudiante.persona.id" type="hidden"  /> 
+          <input asp-for="estudiante.id" type="hidden"  />           
+          <div class="form-group">
+              <label asp-for="estudiante.persona.nombre" class="control-label">Nombre: </label>
+              <input class="form-control" asp-for="estudiante.persona.nombre"/>  
+              <span asp-validation-for="estudiante.persona.nombre" class= "text-danger"></span>
+          </div>
+          <div>
+              <label asp-for="estudiante.persona.apellidos" class="control-label">Apellidos: </label>
+              <input class="form-control" asp-for="estudiante.persona.apellidos" /> 
+              <span asp-validation-for="estudiante.persona.apellidos" class= "text-danger"></span>              
+          </div>
+          <div class="form-group">          
+              <label asp-for="estudiante.persona.fechaNacimiento" class="control-label">Fecha de Nacimiento: </label> 
+              <input class="form-control" asp-for="estudiante.persona.fechaNacimiento" />  
+              <span asp-validation-for="estudiante.persona.fechaNacimiento" class= "text-danger"></span>              
+         </div>
+          <div class="form-group">          
+              <label asp-for="estudiante.persona.telefono" class="control-label">Telefono: </label> 
+              <input class="form-control" asp-for="estudiante.persona.telefono" />  
+              <span asp-validation-for="estudiante.persona.telefono" class= "text-danger"></span>               
+         </div>   
+          <div class="form-group">          
+              <label asp-for="estudiante.persona.correo" class="control-label">Correo: </label> 
+              <input class="form-control" asp-for="estudiante.persona.correo" />  
+         </div> 
+          <div class="form-group">          
+              <label asp-for="estudiante.carrera" class="control-label">Carrera: </label> 
+              <input class="form-control" asp-for="estudiante.carrera"  />  
+         </div> 
+          <div class="form-group">          
+              <label asp-for="estudiante.semestre" class="control-label">Semestre: </label> 
+              <input class="form-control" asp-for="estudiante.semestre" />  
+         </div>  
+          <div class="form-group">          
+              <input type="submit" value="Guardar" class="btn btn-primary" />  
+              <a class="btn btn-primary table-btn" asp-page="./Estudiantes">
+                    <i class="fas fa-info-circle"> </i> 
+                     Regresar
+                     </a> 
+         </div>                                         
+        </form>
+    </div>   
+</div>
+
+
+
+}
+

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using CtrlIngrsoSalon.App.Dominio;
 using CtrlIngrsoSalon.App.Persistencia;
 
@@ -9,30 +10,60 @@ namespace CtrlIngrsoSalon.App.Consola
         private static IRepositorioEstado _repositorioEstado = new RepositorioEstado(new Persistencia.AppContext());
         private static IRepositorioPersona _repositorioPersona = new RepositorioPersona(new Persistencia.AppContext());
         private static IRepositorioDocente _repositorioDocente = new RepositorioDocente(new Persistencia.AppContext());
-        private static IRepositorioEstudiante _repositorioEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());        
+        private static IRepositorioEstudiante _repositorioEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());    
+
+       
         static void Main(string[] args)
         {
+
+
+
             Console.WriteLine("CRUD usando Entity Framework de .NET !!");
             Console.WriteLine("--------APLICACION CONTROL INGRESO SALONES------");
 
 
         /*---------------ENTIDAD DOCENTE-----------------*/
             //AddDocente();
-           //BuscarDocente(4);  
-           EditarDocente(11);
+           //BuscarDocente(9);  
+           //EditarDocente(11);
            //BorrarDocente(4);
-        /*--------------ENTIDAD ESTUDIANTE----------------*/
+        /*--------------ENTIDAD ESTUDIANTE----------------*
+
            //AddEstudiante();
-           //BuscarEstudiante(8);
-           EditarEstudiante(12);
+           //BuscarEstudiante(13);
+           //EditarEstudiante(10);
            //BorrarEstudiante(8);
         /*--------------ENTIDAD ESTADO----------------*/
             //AddEstado();
             //BorrarEstado(1);
+           
+/*
+ var query = _repositorioEstudiante.GetAllEstudiante();
+
+var consulta = (from p in _repositorioPersona.GetAllPersona()
+                 //join e in _repositorioEstudiante.GetAllEstudiante()
+                  //on p.id equals e.persona.id
+                   //   where p.id == 12
+                       select new {P = p} 
+ );
 
 
 
+        foreach (var item in consulta)
+        {
+            var p = item.P;
+            var e =  _repositorioEstudiante.GetEstudiante(p.id);
+           if (e!= null)
+           {
+            Console.WriteLine("Sera que si funciono? "+ p.nombre+" id: "+p.id + "carrera : "+e.carrera);
+           }else{
+           Console.WriteLine("Sera que si funciono? "+ p.nombre+" id: "+p.id);      
+           }      
+        }
+*/
 
+//Buscar();
+EditarEstudiante(12);
         }
 
 
@@ -40,13 +71,9 @@ namespace CtrlIngrsoSalon.App.Consola
 
         private static void AddPersona()
         {
-            //Estado estado = new Estado();  //Consultarlo
-            //estado.nombre= "Positivo";
-            var estado = new Estado
-            {
-                nombre = "Negativo"
+            Estado estado = new Estado();     //Consultarlo
 
-            };
+
             var persona = new Persona
             {
                 nombre          = "Retorico",
@@ -72,8 +99,8 @@ namespace CtrlIngrsoSalon.App.Consola
             //estado.nombre= "Positivo";
             var profesor = new Persona
             {
-                nombre          = "Miyerlady",
-                apellidos       = "Escudeto Daza",
+                nombre          = "Evaluador",
+                apellidos       = "Sprinte",
                 fechaNacimiento = "1967-03-05",
                 telefono        = "3218129876",                
                 correo          = "escudeto@yahoo.com",
@@ -158,6 +185,7 @@ namespace CtrlIngrsoSalon.App.Consola
             var estudiantebuscado = _repositorioEstudiante.GetEstudiante(idEstudiante);
             Console.WriteLine("Estudiante filtrada: "+ persona.nombre+ "  "+persona.apellidos+ "  "+estudiantebuscado.carrera + "  "+ estudiantebuscado.semestre);
         }
+
 
        /* -----  Funcion ACTUALIZAR------ */
         private static void EditarPersona(int idPersona)
@@ -247,7 +275,7 @@ namespace CtrlIngrsoSalon.App.Consola
                 var persona = new Persona
                 {
                     id              = idEstudiante,
-                    nombre          = "Yuberjen Maria",
+                    nombre          = "Yuberjen Joselo",
                     apellidos       = "Samaniego Fresno",
                     fechaNacimiento = "1957-05-15",
                     telefono        = "3173456789",                
@@ -267,7 +295,7 @@ namespace CtrlIngrsoSalon.App.Consola
                        {
                           id      = estudiantebuscado.id,
                           carrera = "Deportes",
-                          semestre= 3
+                          semestre= 10
                        };
                        Estudiante estudianteactualizado =  _repositorioEstudiante.UpdateEstudiante(alumno);
                        if (estudianteactualizado != null)
@@ -351,6 +379,13 @@ namespace CtrlIngrsoSalon.App.Consola
             }
         }
 
+
+
+        private static void Buscar()
+        {
+            var personabuscada = _repositorioEstudiante.GetTodosEstudiantes();
+            Console.WriteLine("Persona filtarada: "+personabuscada);
+        }
 
 
     }

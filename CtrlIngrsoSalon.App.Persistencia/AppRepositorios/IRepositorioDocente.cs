@@ -9,9 +9,11 @@ namespace CtrlIngrsoSalon.App.Persistencia
         IEnumerable<Docente> GetAllDocente();
         Docente AddDocente (Docente docente);
         Docente UpdateDocente (Docente docente);
-        Boolean DeleteDocente (int idDocente);
+        Boolean DeleteDocente (int idDocente, int idPersona);
         Docente GetDocente(int idDocente);
 
+        IEnumerable<Docente> GetTodosDocentes();
+   
 
     }
 }

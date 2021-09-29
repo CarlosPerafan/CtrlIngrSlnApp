@@ -1,0 +1,37 @@
+﻿@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.DetalleDocenteModel
+@{
+
+    var docente = Model.docente;
+    
+    <h1>Detalle del Estudiante : @docente.persona.apellidos @docente.persona.nombre </h1>
+    <table class="table">
+        <tr>
+            <td>FECHA NACIMIENTO</td>
+            <td>TELEFONO</td>
+            <td>E-MAIL</td>
+            <td>CARRERA</td>
+            <td>SEMESTRE</td>
+
+        </tr>
+        <tr>
+            <td>@docente.persona.fechaNacimiento</td>            
+            <td>@docente.persona.telefono</td>   
+            <td>@docente.persona.correo</td>            
+            <td>@docente.departamento</td>   
+            <td>@docente.materia</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a class="btn btn-primary table-btn" asp-page="./Docentes">
+                    <i class="fas fa-info-circle"> </i> 
+                     Regresar
+                     </a>
+            </td>
+        </tr>        
+
+    </table>
+}

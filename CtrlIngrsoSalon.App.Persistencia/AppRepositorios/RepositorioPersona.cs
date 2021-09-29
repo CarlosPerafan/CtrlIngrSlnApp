@@ -40,7 +40,7 @@ namespace CtrlIngrsoSalon.App.Persistencia
                 personaencontrada.correo = persona.correo;
                 personaencontrada.estadoCovid = persona.estadoCovid;
                 _appContext.SaveChanges();                
-            }
+            }else{Console.WriteLine("Pana en la clase persona no esta haciendo nada");}
             return personaencontrada;
         }
          Boolean IRepositorioPersona.DeletePersona(int idPersona)

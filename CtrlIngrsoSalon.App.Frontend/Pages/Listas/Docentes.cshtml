@@ -1,0 +1,65 @@
+﻿@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.DocentesModel
+@{
+    
+
+<div class="container">
+    <div class="row">
+             <div class= "col-sm-6">
+               <h3>Listado de Docentes</h3>
+             </div>
+             <div class= "col-sm-2">
+               <a class="btn btn-success d-block" asp-page="./EditarDocente" >Agregar</a>
+             </div>             
+    </div>
+</div>
+
+<div class="row">
+
+@if (Model.Docentes != null)
+
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <td>CODIGO</td>                
+                <td>NOMBRE</td> 
+                <td>APELLIDOS</td> 
+                <td>OPERACIONES</td>              
+            </tr> 
+        </thead>
+        <tbody>
+        @foreach(var docente in Model.Docentes)
+        {      
+           <tr>
+                <td>@docente.persona.id</td>                
+                <td>@docente.persona.nombre</td> 
+                <td>@docente.persona.apellidos</td> 
+                <td><a class="btn btn-primary table-btn" asp-page="./DetalleDocente" asp-route-docenteId="@docente.persona.id" asp-route-docId="@docente.id">
+                    <i class="fas fa-info-circle"> </i> 
+                     Consultar
+                     </a>
+                     <a class="btn btn-primary table-btn" asp-page="./EditarDocente" asp-route-docenteId="@docente.persona.id">
+                     <i class="fas fa-address-book"> </i>
+                     Editar
+                     </a>
+                     <a class="btn btn-danger" asp-page="./EliminarDocente" asp-route-docenteId="@docente.persona.id">
+                     <i class="far fa-trash-alt"></i>
+                     Eliminar                    
+                    </a>
+                </td>                                      
+            </tr>
+
+        }
+        </tbody>        
+    </table>
+
+} else
+{
+    <p>No hay registros mi pana !!!</p>
+
+}
+
+    
+</div>    
+}
