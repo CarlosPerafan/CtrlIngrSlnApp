@@ -15,7 +15,7 @@ namespace CtrlIngrsoSalon.App.Frontend.Pages
         public IEnumerable<Persona> Personas {get;set;}
         public void OnGet()
         {
-            Personas = _repositorioPersona.GetAllPersona();
+            Personas = _repositorioPersona.GetAllPersonas();
         }
     }
 }
