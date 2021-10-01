@@ -8,9 +8,9 @@ namespace CtrlIngrsoSalon.App.Persistencia
     {
         IEnumerable<PersonaHorario> GetAllPersonaHorarios();
 
-        PersonaHorario AddPersonaHorario(PersonaHorario PersonaHorario);
+        PersonaHorario AddPersonaHorario(PersonaHorario personaHorario);
 
-        PersonaHorario UpdatePersonaHorario(PersonaHorario PersonaHorario);
+        PersonaHorario UpdatePersonaHorario(PersonaHorario personaHorario);
 
         Boolean DeletePersonaHorario(int idPersonaHorario);
 

@@ -22,3 +22,14 @@ L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.csproj.CopyComplete
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.dll
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.pdb
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\bin\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.deps.json
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\bin\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.dll
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\bin\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.pdb
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\bin\Debug\netstandard2.1\CtrlIngrsoSalon.App.Dominio.dll
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\bin\Debug\netstandard2.1\CtrlIngrsoSalon.App.Dominio.pdb
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.csprojAssemblyReference.cache
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.AssemblyInfoInputs.cache
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.AssemblyInfo.cs
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.csproj.CopyComplete
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.dll
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Persistencia\obj\Debug\netstandard2.1\CtrlIngrsoSalon.App.Persistencia.pdb

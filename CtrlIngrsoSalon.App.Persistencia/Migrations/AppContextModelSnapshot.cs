@@ -165,7 +165,9 @@ namespace CtrlIngrsoSalon.App.Persistencia.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("apellidos")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("correo")
                         .HasColumnType("nvarchar(max)");
@@ -174,13 +176,19 @@ namespace CtrlIngrsoSalon.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("fechaNacimiento")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("telefono")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
 
                     b.HasKey("id");
 

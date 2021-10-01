@@ -5799,38 +5799,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jorge\\.nuget\\packages\\": {},
-    "S:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\fpatino\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\CtrlIngrsoSalon.App.Consola.csproj",
+      "projectUniqueName": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\CtrlIngrsoSalon.App.Consola.csproj",
       "projectName": "CtrlIngrsoSalon.App.Consola",
-      "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\CtrlIngrsoSalon.App.Consola.csproj",
-      "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\obj\\",
+      "projectPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\CtrlIngrsoSalon.App.Consola.csproj",
+      "packagesPath": "C:\\Users\\fpatino\\.nuget\\packages\\",
+      "outputPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Consola\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "S:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\fpatino\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {
-              "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj"
+            "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj": {
+              "projectPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj"
             }
           }
         }
@@ -5866,7 +5859,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
       }
     }
   }

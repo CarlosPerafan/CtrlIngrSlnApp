@@ -1,0 +1,76 @@
+@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.HorarioModel
+@{
+    
+
+<div class="container">
+    <div class="row">
+             <div class= "col-sm-6">
+               <h3>Horarios</h3>
+             </div>
+             <div class= "col-sm-2">
+               <a class="btn btn-success d-block" asp-page="./EditarHorario" >Agregar</a>
+             </div>             
+    </div>
+</div>
+
+<div class="row">
+
+@if (Model.Horarios != null)
+
+{
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+        <td>CODIGO</td>                
+        <td>SALON</td> 
+        <td>CODSEMESTRE</td>
+		<td>DIA</td>
+		<td>HORAINICIO</td>
+		<td>HORAFINAL</td>
+		<td>CODASIGNATURA</td>
+        <td>OPERACIONES</td>              
+            </tr> 
+        </thead>
+        <tbody>
+        @foreach(var horario in Model.Horarios)
+        {      
+           <tr>
+        <td>@horario.id</td>                
+        <td>@horario.salon</td> 
+        <td>@horario.codSemestre</td>
+		<td>@horario.dia</td>
+		<td>@horario.horaInicio</td>
+		<td>@horario.horaFinal</td>
+		<td>@horario.codAsignatura</td>
+		 
+        <td><a class="btn btn-primary table-btn" asp-page="./DetalleHorario" asp-route-horarioId="@horario.id" asp-route-horarId="@horario.id">
+        <i class="fas fa-info-circle"> </i> 
+        Consultar
+        </a>
+        <a class="btn btn-primary table-btn" asp-page="./EditarHorario" asp-route-horarioId="@horario.id">
+        <i class="fas fa-address-book"> </i>
+        Editar
+        </a>
+        <a class="btn btn-danger" asp-page="./EliminarHorario" asp-route-horarioId="@horario.id">
+        <i> </i>
+        Eliminar
+        </a>                     
+
+                </td>                                      
+            </tr>
+
+        }
+        </tbody>        
+    </table>
+
+} else
+{
+    <p>No existen registros !!!</p>
+
+}
+
+    
+</div>    
+}

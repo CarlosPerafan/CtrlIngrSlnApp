@@ -1,0 +1,51 @@
+@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.EliminarHorarioModel
+@{
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Editar Horario</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post">
+                <input asp-for="horario.id" type="hidden" />
+                <div class="form-group">
+                    <label asp-for="horario.salon" class="control-label">salon: </label>
+                    <input class="form-control" asp-for="horario.salon" />
+
+                </div>
+                <div>
+                    <label asp-for="horario.codSemestre" class="control-label">Codigo de Semestre: </label>
+                    <input class="form-control" asp-for="horario.codSemestre" />
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="horario.horaInicio" class="control-label">Hora de Inicio: </label>
+                    <input class="form-control" asp-for="horario.horaInicio" />
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="horario.horaFinal" class="control-label">Hora de Finalización: </label>
+                    <input class="form-control" asp-for="horario.horaFinal" />
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="horario.codAsignatura" class="control-label">Código de Asignatura: </label>
+                    <input class="form-control" asp-for="horario.codAsignatura" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Eliminar" class="btn btn-primary" />
+                    <a class="btn btn-primary table-btn" asp-page="./Horario">
+                        <i class="fas fa-info-circle"> </i>
+                        Regresar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+}

@@ -1,19 +1,22 @@
 using System.Collections.Generic;
-using CtrlIngrsoSalon.App.Dominio;
 using System;
+using  CtrlIngrsoSalon.App.Dominio;
 
 namespace CtrlIngrsoSalon.App.Persistencia
 {
     public interface IRepositorioHorario
     {
-        IEnumerable<Horario> GetAllHorarios();
+        IEnumerable<Horario> GetAllHorario();
 
-        Horario AddHorario(Horario Horario);
+        Horario AddHorario (Horario horario);
 
-        Horario UpdateHorario(Horario Horario);
+        Horario UpdateHorario (Horario horario);
 
-        Boolean DeleteHorario(int idHorario);
+        Boolean DeleteHorario (int idHorario);
 
-        Horario GetHorario(int idHorario);
+        Horario GetHorario(int idHorario); 
+
+        IEnumerable<Horario> GetTodosHorarios();
+        
     }
 }

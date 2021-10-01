@@ -11,6 +11,7 @@ namespace CtrlIngrsoSalon.App.Consola
         private static IRepositorioPersona _repositorioPersona = new RepositorioPersona(new Persistencia.AppContext());
         private static IRepositorioDocente _repositorioDocente = new RepositorioDocente(new Persistencia.AppContext());
         private static IRepositorioEstudiante _repositorioEstudiante = new RepositorioEstudiante(new Persistencia.AppContext());    
+        private static IRepositorioHorario _repositorioHorario = new RepositorioHorario(new Persistencia.AppContext()); 
 
        
         static void Main(string[] args)
@@ -36,6 +37,11 @@ namespace CtrlIngrsoSalon.App.Consola
         /*--------------ENTIDAD ESTADO----------------*/
             //AddEstado();
             //BorrarEstado(1);
+
+        /*--------------ENTIDAD HORARIO----------------*/
+            AddHorario();
+            
+        
            
 /*
  var query = _repositorioEstudiante.GetAllEstudiante();
@@ -63,7 +69,7 @@ var consulta = (from p in _repositorioPersona.GetAllPersona()
 */
 
 //Buscar();
-EditarEstudiante(12);
+//EditarEstudiante(12);
         }
 
 
@@ -163,7 +169,29 @@ EditarEstudiante(12);
             _repositorioEstado.AddEstado(estado);
         }
 
-
+        private static void AddHorario()
+        {
+            
+            var horario = new Horario
+            {
+                salon           = null,
+                codSemestre     = "2021118",
+                dia 		= "Martes",
+                horaInicio      = "10:00am",                
+                horaFinal       = "8:00pm",
+		codAsignatura    = "Math-0029"
+               
+            };
+            
+           var creado = _repositorioHorario.AddHorario(horario);
+           if (creado != null)
+           {
+               Console.WriteLine("Horario: "+horario.id + "  "+ horario.codSemestre + " creada correctamente "); 
+           }else{
+                Console.WriteLine("Ocurrio un error en al creacion !!! ");
+           }
+            
+        }        
 
        /* -----  Funcion BUSCAR ------- */
         private static void BuscarPersona(int idPersona)

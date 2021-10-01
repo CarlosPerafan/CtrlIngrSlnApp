@@ -16,3 +16,11 @@ L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.csproj.CoreCompileInputs.cache
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.dll
 L:\JORGEALBERTO\Universidad\Universidad de Caldas\Ciclo 3\DS-C3-23 Desarrollo de Software\Módulo 4\Equipo\GitHub\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.pdb
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.deps.json
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.dll
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\bin\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.pdb
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.csprojAssemblyReference.cache
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.AssemblyInfoInputs.cache
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.AssemblyInfo.cs
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.dll
+C:\CtrlIngrSlnApp\CtrlIngrSlnApp\CtrlIngrsoSalon.App.Dominio\obj\Debug\netstandard2.0\CtrlIngrsoSalon.App.Dominio.pdb
