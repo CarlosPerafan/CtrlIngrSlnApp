@@ -1,0 +1,75 @@
+@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.ProtocoloCrudModel
+@{
+
+    <form method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>Protocolo ##</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-10">
+
+                    <div class="form-group">
+                        <input type="submit" value="Guardar" class="btn btn-primary" />
+                        <input type="submit" value="Eliminar" class="btn btn-primary" />
+                        <a class="btn btn-primary table-btn" asp-page="./protocolos">
+                            <i class="fas fa-info-circle"> </i>
+                            Regresar
+                        </a>
+                    </div>
+                    <input asp-for="protocolo.id" type="hidden" />
+                    <div class="form-group">
+                        <label asp-for="protocolo.tomaMuestra" class="control-label">Fecha Hora: </label>
+                        <input class="form-control" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label for="validationDefault04" class="form-label">Persona: </label>
+                        <input class="form-control" type="text" id="txtPersona" name="txtPersona" list="lstPersona">
+                        <datalist id="lstPersona">
+                            <option value="Jorge Ramirez"></option>
+                            <option value="Alberto Rojas"></option>
+                            <option value="Diana Jimenez"></option>
+                            <option value="Emanuel Ramirez"></option>
+                        </datalist>
+                    </div>
+                    <div class="form-group">
+                        <label for="validationDefault04" class="form-label">Sede: </label>
+                        <input class="form-control" type="text" id="txtSede" name="txtSede" list="lstSede">
+                        <datalist id="lstSede">
+                            <option value="Manizales"></option>
+                            <option value="Cali"></option>
+                            <option value="Florencia"></option>
+                            <option value="Bogotá D.C."></option>
+                        </datalist>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="protocolo.temperatura" class="control-label">Temperatura: </label>
+                        <input class="form-control" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="protocolo.observaciones" class="control-label">Observaciones: </label>
+                        <input class="form-control" disabled />
+                    </div>
+                    <frame>
+                        <div class="form-group">
+                            <label asp-for="protocolo.diagnostico.nombre" class="control-label">Diagnostico: </label>
+                            <input class="form-control" disabled />
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="protocolo.periodoAislamiento" class="control-label">Periodo Aislamiento:
+                            </label>
+                            <input class="form-control" disabled />
+                        </div>
+                    </frame>
+
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+}

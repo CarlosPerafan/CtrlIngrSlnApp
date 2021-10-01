@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oEvekfNX2E+HpoAe/IVRMasiDQPlCPiZJ0XPxqDnev6RNnr1DfcAKLb9/zBuw0AamZN69IpEzz1A650x5gEGZw==",
+  "dgSpecHash": "wsiy0E1IKMHXwNKnyQtlrvDxFQVYRDS7cLAtd4pgSYIT03zfQxWdUMmWpMBEODp3ELFq7FZdVKesMnnlB2AmbQ==",
   "success": true,
-  "projectFilePath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Módulo 4\\Equipo\\GitHub\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
+  "projectFilePath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -1,0 +1,54 @@
+@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.ProtocolosModel
+@{
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Listado de Ex&aacute;menes</h3>
+            </div>
+            <div class="col-sm-2">
+                <a class="btn btn-success d-block" asp-page="./ProtocoloCrud">Nuevo Protocolo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Fecha Hora</td>
+                    <td>Persona</td>
+                    <td>Sede</td>
+                    <td>Diagnostico</td>
+                    <td>Operaciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ID</td>
+                    <td>Fecha Hora</td>
+                    <td>Persona</td>
+                    <td>Sede</td>
+                    <td>Diagnostico</td>
+                    <td>
+                        <a class="btn btn-primary table-btn" asp-page="./ProtocoloCrud">
+                            <i class="fas fa-info-circle"> </i>
+                            Consultar
+                        </a>
+                        <a class="btn btn-primary table-btn" asp-page="./ProtocoloCrud">
+                            <i class="fas fa-address-book"> </i>
+                            Editar
+                        </a>
+                        <a class="btn btn-danger" asp-page="./EliminarProtocolo">
+                            <i class="fas fa-trash-alt"> </i>
+                            Eliminar
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+}

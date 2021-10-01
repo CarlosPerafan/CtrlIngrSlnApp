@@ -8,11 +8,11 @@ namespace CtrlIngrsoSalon.App.Persistencia
     {
         IEnumerable<Pregunta> GetAllPreguntas();
 
-        Pregunta AddPregunta(Pregunta Pregunta);
+        Pregunta AddPregunta(Pregunta pregunta);
 
         Pregunta UpdatePregunta(Pregunta Pregunta);
 
-        Boolean DeletePregunta(int idPregunta);
+        void DeletePregunta(int idPregunta);
 
         Pregunta GetPregunta(int idPregunta);
     }

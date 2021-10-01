@@ -7266,31 +7266,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fpatino\\.nuget\\packages\\": {}
+    "C:\\Users\\jorge\\.nuget\\packages\\": {},
+    "S:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
+      "projectUniqueName": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
       "projectName": "CtrlIngrsoSalon.App.Persistencia",
-      "projectPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\fpatino\\.nuget\\packages\\",
-      "outputPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Persistencia\\obj\\",
+      "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Persistencia\\CtrlIngrsoSalon.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+      "outputPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "S:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\fpatino\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
-              "projectPath": "C:\\CtrlIngrSlnApp\\CtrlIngrSlnApp\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj"
+            "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj": {
+              "projectPath": "L:\\JORGEALBERTO\\Universidad\\Universidad de Caldas\\Ciclo 3\\DS-C3-23 Desarrollo de Software\\Laboratorios\\GitHub\\CtrlIngrSlnApp-1\\CtrlIngrsoSalon.App.Dominio\\CtrlIngrsoSalon.App.Dominio.csproj"
             }
           }
         }
@@ -7340,7 +7347,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.119\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,0 +1,41 @@
+@page
+@model CtrlIngrsoSalon.App.Frontend.Pages.DetallePreguntasModel
+@{
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>Pregunta ##</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <form method="post">
+                <input asp-for="pregunta.id" type="hidden" />
+                <div class="form-group">
+                    <label asp-for="pregunta.pregunta" class="control-label">Pregunta: </label>
+                    <input class="form-control" asp-for="pregunta.pregunta" />
+                </div>
+                <div class="form-group">
+                    <label for="validationDefault04" class="form-label">Resultado: </label>
+                    <select class="form-control" id="validationDefault04" required>
+                        <option selected disabled value="">Selecciona una opci&oacute;n</option>
+                        <option>Verdadero</option>
+                        <option>Falso</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Guardar" class="btn btn-primary" />
+                    <input type="submit" value="Eliminar" class="btn btn-danger" />
+                    <a class="btn btn-primary table-btn" asp-page="./Preguntas">
+                        <i class="fas fa-info-circle"> </i>
+                        Regresar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+}
